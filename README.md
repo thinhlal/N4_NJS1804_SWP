@@ -82,6 +82,8 @@ List of team members and the tasks they have completed.
 - **Thịnh:** Login
 - **Jane Smith:** Develop UI for pet profile management
 - **Bob Johnson:** Integrate API with UI
+- **Đạt:** Create Account (Admin)
+
 
 #### Sprint 2:
 
