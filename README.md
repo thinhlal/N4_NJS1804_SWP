@@ -67,13 +67,12 @@ The Pet Health Care System is a standalone system designed to assist in the mana
 
 List of team members and the tasks they have completed.
 
-| Member      | Role                     | Tasks                                                        |
-| ----------- | ------------------------ | ------------------------------------------------------------ |
-| John Doe    | Lead Developer           | Backend design and development, database management          |
-| Jane Smith  | Frontend Developer       | UI design and development, React components                  |
-| Bob Johnson | Full Stack Developer     | Integrating frontend with backend, API implementation        |
-| Alice Davis | QA Engineer              | Writing and executing test cases, product quality assurance  |
-| Mark Wilson | Documentation Specialist | Writing user guides, API documentation, and design documents |
+| Member      | Role                     | 
+| ----------- | ------------------------ | 
+| Lại Văn Đức Thịnh   | Lead           |
+| Nguyễn Trường Đạt  | Member       | 
+| Nguyễn Anh Minh | Member     | 
+| Nguyễn Song Kha | Member              |
 
 ### Assignment by Sprint
 
