@@ -81,7 +81,7 @@ List of team members and the tasks they have completed.
 
 - **Thịnh:** Login
 - **Minh:** SignUp
-- **Bob Johnson:** Integrate API with UI
+- **Kha:** Password
 - **Đạt:** Create Account (Admin)
 
 
