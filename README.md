@@ -35,17 +35,16 @@ The Pet Health Care System is a standalone system designed to assist in the mana
 - **Use Cases:**
   - UC-01: Login
   - UC-03: Password
-  - UC-05: SignUp
-  - UC-06: Create Account (Admin)
+  - UC-04: SignUp
+  - UC-05: Create Account (Admin)
 
 ### Sprint 2: Appointment Reminders
 
 - **Use Cases:**
   - UC-02: LogOut
-  - UC-04: Decentralization
-  - Update appointment reminders
-  - Delete appointment reminders
-  - Send reminder notifications
+  - UC-06: Disable account (Admin)
+  - UC-07: Edit account (Admin)
+  - UC-08: Create booking (Admin)
 
 ### Sprint 3: Health Tracking
 
@@ -86,9 +85,10 @@ List of team members and the tasks they have completed.
 
 #### Sprint 2:
 
-- **John Doe:** Create API for appointment reminders
-- **Jane Smith:** Develop UI for appointment reminders
-- **Bob Johnson:** Integrate API with UI
+- **Thịnh:** Logout
+- **Minh:** Edit account
+- **Kha:** Disable account (Admin)
+- **Đạt:** Create booking (Admin)
 
 #### Sprint 3:
 
