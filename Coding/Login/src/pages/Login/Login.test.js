@@ -13,13 +13,13 @@ describe('Login Component', () => {
         mock.reset();
     });
 
-    test('successful login with username A and password B', async () => {
+    test('successful login with username A and password A', async () => {
         mock.onPost('http://localhost:5000/login').reply(config => {
             const { username, password } = JSON.parse(config.data);
-            if (username === 'A' && password === 'B') {
+            if (username === 'A' && password === 'A') {
                 return [200, { token: 'token-for-A' }];
-            } else if (username === 'C' && password === 'D') {
-                return [200, { token: 'token-for-C' }];
+            } else if (username === 'B' && password === 'B') {
+                return [200, { token: 'token-for-B' }];
             } else {
                 return [401, { message: 'Invalid username or password' }];
             }
@@ -27,17 +27,16 @@ describe('Login Component', () => {
 
         render(<Login />);
         fireEvent.change(screen.getByPlaceholderText('Enter Username or Email.'), { target: { value: 'A' } });
-        fireEvent.change(screen.getByPlaceholderText('Enter Password.'), { target: { value: 'B' } });
+        fireEvent.change(screen.getByPlaceholderText('Enter Password.'), { target: { value: 'A' } });
         fireEvent.click(screen.getByRole('button', { name: /sign in/i }));
 
-        // Kiểm tra xem token có được lưu vào localStorage không
         await waitFor(() => expect(localStorage.getItem('token')).toBe('token-for-A'));
     });
 
     test('shows error message on failed login', async () => {
         mock.onPost('http://localhost:5000/login').reply(config => {
             const { username, password } = JSON.parse(config.data);
-            if (username === 'A' && password === 'B') {
+            if (username === 'A' && password === 'A') {
                 return [200, { token: 'token-for-A' }];
             }else {
                 return [401, { message: 'Invalid username or password' }];
