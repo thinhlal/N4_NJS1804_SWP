@@ -44,7 +44,7 @@ The Pet Health Care System is a standalone system designed to assist in the mana
   - UC-02: LogOut
   - UC-06: Disable account (Admin)
   - UC-07: Edit account (Admin)
-  - UC-08: Add services (Admin)
+  - UC-16: Add services (Admin)
 
 ### Sprint 3: Health Tracking
 
