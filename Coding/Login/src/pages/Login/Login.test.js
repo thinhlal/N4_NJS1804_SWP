@@ -38,7 +38,7 @@ describe('Login Component', () => {
             const { username, password } = JSON.parse(config.data);
             if (username === 'A' && password === 'A') {
                 return [200, { token: 'token-for-A' }];
-            }else {
+            } else {
                 return [401, { message: 'Invalid username or password' }];
             }
         });
