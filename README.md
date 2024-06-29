@@ -34,7 +34,7 @@ The Pet Health Care System is a standalone system designed to assist in the mana
 
 - **Use Cases:**
   - UC-01: Login
-  - UC-03: Password
+  - UC-03: Edit Account
   - UC-04: SignUp
   - UC-05: Create Account (Admin)
 
@@ -79,7 +79,7 @@ List of team members and the tasks they have completed.
 
 - **Thịnh:** Login
 - **Minh:** SignUp
-- **Kha:** Password
+- **Kha:** Edit Account
 - **Đạt:** Create Account (Admin)
 
 
