@@ -38,13 +38,15 @@ The Pet Health Care System is a standalone system designed to assist in the mana
   - UC-04: SignUp
   - UC-05: Create Account (Admin)
 
-### Sprint 2: Appointment Reminders
+### Sprint 2: Main flow
 
 - **Use Cases:**
-  - UC-02: LogOut
-  - UC-06: Disable account (Admin)
-  - UC-07: Edit account (Admin)
-  - UC-16: Add services (Admin)
+  - UC-02: Add pet
+  - UC-06: Create booking (Customer)
+  - UC-07: Create booking (Staff)
+  - UC-08: Time table (Veterinarians)
+  - UC-09: Manage booking check in (Staff)
+  - UC-10: Manage booking cancel booking (Staff)
 
 ### Sprint 3: Health Tracking
 
@@ -85,10 +87,10 @@ List of team members and the tasks they have completed.
 
 #### Sprint 2:
 
-- **Thịnh:** Logout
-- **Minh:** Edit account
-- **Kha:** Disable account (Admin)
-- **Đạt:** Add services (Admin)
+- **Thịnh:** Manage booking cancel booking
+- **Minh:** Time table, Create booking (Staff)
+- **Kha:** Manage booking cancel booking
+- **Đạt:** Add pet, Create booking (Customer)
 
 #### Sprint 3:
 
